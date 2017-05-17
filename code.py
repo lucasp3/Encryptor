@@ -3,15 +3,6 @@ import os
 import pyperclip
 
 
-def angry():
-    print("You make me angry. Stop doing that.")
-
-
-def veryangry():
-    os.system('shutdown -s -t 60')
-    print("You have made me very angry. System will shutdown in 10 seconds.")
-
-
 def copy(data):
     question = input("Copy to clipboard? ")
 
